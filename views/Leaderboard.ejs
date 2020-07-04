@@ -1,0 +1,23 @@
+<%- include('partials/header') %>
+<center><h1>LEADERBOARD</h1></center>
+<table class="table table-dark table-bordered table-hover table-sm">
+    <thead>
+      <tr>
+        <th scope="col">Rank</th>
+        <th scope="col">Username</th>
+        <th scope="col">Score</th>
+      </tr>
+    </thead>
+    <tbody>
+    <% for(let i=0;i<Leaderboard.length;i++){ %>
+              <tr>
+                <th scope="row"><%=i+1%></th>
+                <td><%=Leaderboard[i].username %></td>
+                <td><%=Leaderboard[i].totalscore %></td>
+              </tr>
+  
+    <%}%>
+</tbody>
+</table>
+<h4>*Refresh if you don't see your updated result</h4>
+<%- include('partials/footer') %>

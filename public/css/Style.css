@@ -1,0 +1,40 @@
+body{
+    width: 100vw;
+    height:100vh;
+    background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%);
+}
+
+#formpanel{
+    margin: 0 auto;
+    width: 500px;
+    height:500px;   
+}
+
+#homepanel{
+    margin: 0 auto;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    width:50vw;  
+    padding: 3%;
+    align-items: center;
+    text-align: center;
+    border:5px solid black;
+    border-radius: 3%;
+}
+
+#homepagepanel{
+    margin: 0 auto;
+    background-image: linear-gradient(to top, #accbee 0%, #e7f0fd 100%);
+    width:50vw;  
+    padding: 3%;
+    align-items: center;
+    text-align: center;
+    border:5px solid black;
+    border-radius: 3%;
+}
+
+#Leadbutton{
+    float: left;
+}
+#Logoutbutton{
+    float:right;
+}

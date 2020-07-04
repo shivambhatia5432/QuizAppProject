@@ -1,0 +1,54 @@
+<%- include('partials/header') %>
+<br>
+<div id="otherpanel">
+    <form method="GET">
+        <button id="Leadbutton" class="btn btn-dark" formaction="/Leaderboard">Leaderboard</button>
+    </form>
+
+    <form method="GET">
+        <button id="Logoutbutton" class="btn btn-dark" formaction="/logout">Log Out</button>
+    </form>
+</div>
+
+<br>
+<br>
+<div id="homepagepanel">
+    <b><h1>Username=<%= username %></h1></b>
+    <b><h1>Total Score= <%= score %></h1></b>
+    <br>
+    <br>
+    <form method="POST">
+        <div id="PhysicsDiv">
+            <button class="btn btn-dark" value="Physics" name="Physics" formaction="/Start/Physics">
+            Physics Questions
+        </button>
+        </div>
+        <br>
+        <div id="BiologyDiv">
+            <button  class="btn btn-dark" value="Biology" name="Biology" formaction="/Start/Biology">
+                Biology Questions
+            </button>
+        </div>
+        <br>
+        <div id="TechDiv">
+            <button  class="btn btn-dark" value="Tech" name="Tech" formaction="/Start/Tech">
+                Tech Questions
+            </button>
+        </div>
+        <br>
+        <div id="HistoryDiv">
+            <button  class="btn btn-dark" value="History" name="History" formaction="/Start/History">
+                History Questions
+            </button>
+        </div>
+        <br>
+        <div id="RandomDiv">
+            <button class="btn btn-dark" value="Random" name="Random" formaction="/Start/Random">
+                Random Questions
+            </button>
+        </div>
+    </form>
+</div>
+
+
+<%- include('partials/footer') %>
