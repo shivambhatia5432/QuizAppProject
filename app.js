@@ -21,7 +21,7 @@ app.use(session({
 
 app.use(passport.initialize());
 app.use(passport.session());
-const urldb="mongodb+srv://shivambhatia:md_176@1999@cluster0-gndry.mongodb.net/QuizDB?retryWrites=true&w=majority";
+const urldb="mongodb url";
 mongoose.connect(urldb,{useNewUrlParser:true,useUnifiedTopology: true });
 mongoose.set("useCreateIndex",true);
 
