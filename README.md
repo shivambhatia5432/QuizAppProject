@@ -1,5 +1,5 @@
 # QuizAppProject
-This was a project assigned to me to create a Quiz with Timer,LeaderBoard,User Login and Registration and data backed up by Mongodb.
+This is a Quiz App with Timer, LeaderBoard, User-Login and Registration and data backed up by Mongodb.
 
 Read Instructions before opening the link:
 1) When the website is loaded you need to register as a user/player once.
